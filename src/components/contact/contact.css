@@ -5,15 +5,43 @@
     color: white;
 }
 
-
-.email {
+.contact-me {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    color: white;
     font-size: 25px;
-    padding: 10px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
 }
 
 .email-me {
-    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.email {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.phone {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.phone-number {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
 }
