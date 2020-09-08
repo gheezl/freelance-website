@@ -1,7 +1,7 @@
 .title-border {
     display: flex;
     flex-direction: column;
-    border: solid 1px lightblue;
+    background-image: url("../../images/clouds3.jpg");
 }
 
 .name {
@@ -10,6 +10,7 @@
     font-size: 50px;
     margin-top: 250px;
     margin-bottom: 25px;
+    text-shadow: 0 0 30px white;
 }
 
 .developer-designer {
@@ -17,4 +18,5 @@
     justify-content: center;
     font-size: 25px;
     margin-bottom: 250px;
+    text-shadow: 0 0 30px white;
 }
