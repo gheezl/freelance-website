@@ -1,0 +1,8 @@
+.footer-border {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
