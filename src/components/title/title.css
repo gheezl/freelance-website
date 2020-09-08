@@ -1,6 +1,6 @@
-.title-border {
-    display: flex;
-    flex-direction: column;
+.name {
+    position: sticky;
+    top: 0;
 }
 
 .name {

@@ -10,7 +10,7 @@ const About = () => {
                 <span className="about-me" >About me</span>
                 <div className="description-image">
                     <img className="image" src={Me} height="350px" />
-                    <span className="description">Hi! My name is Jacob Rushlow I am a freelance web developer and designer</span>
+                    <span className="description">Hi! My name is Jacob Rushlow I am a freelance web developer and web designer currently living in northwestern Ohio.</span>
                 </div>
                 <div className="testimonials" >
                     <span>Testimonials</span>

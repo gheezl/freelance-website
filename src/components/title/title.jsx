@@ -5,7 +5,6 @@ import "./title.css"
 
 const Title = ({ history }) => {
 
-
     const onCLickFunction = (props) => {
         history.push(`./${props}`)
     }
@@ -14,22 +13,18 @@ const Title = ({ history }) => {
         <Fragment>
             <div className="title-border" >
                 <span className="name" >Jacob Rushlow</span>
-                <span className="developer-designer" >A Web Developer and Designer</span>
+                <span className="developer-designer" >Your Web Developer and Designer</span>
             </div>
             <div className="to-information">
-
                 <div onClick={() => onCLickFunction("about")} className="item">
                     <span>About me</span>
                 </div>
-
                 <div onClick={() => onCLickFunction("")} className="item">
                     <span>My work</span>
                 </div>
-
                 <div onClick={() => onCLickFunction("contact")} className="item" >
                     <span>Contact me</span>
                 </div>
-
             </div>
         </Fragment>
     )
