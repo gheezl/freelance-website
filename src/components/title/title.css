@@ -1,0 +1,20 @@
+.title-border {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightblue;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 250px;
+    margin-bottom: 25px;
+}
+
+.developer-designer {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 250px;
+}
