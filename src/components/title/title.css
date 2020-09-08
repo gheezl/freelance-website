@@ -1,7 +1,6 @@
 .title-border {
     display: flex;
     flex-direction: column;
-    background-image: url("../../images/clouds3.jpg");
 }
 
 .name {
@@ -25,6 +24,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: solid 1px lightblue ;
+    background-color: white;
 }
 
 .border {

@@ -18,7 +18,7 @@ const Title = ({ history }) => {
                 <div onClick={() => onCLickFunction("about")} className="border">
                     <span>About me</span>
                 </div>
-                <div onClick={() => onCLickFunction("work")} className="border">
+                <div onClick={() => onCLickFunction("")} className="border">
                     <span>My work</span>
                 </div>
                 <div onClick={() => onCLickFunction("contact")} className="border" >
