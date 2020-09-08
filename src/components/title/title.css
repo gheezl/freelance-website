@@ -20,3 +20,19 @@
     margin-bottom: 250px;
     text-shadow: 0 0 30px white;
 }
+
+.to-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid 1px lightblue ;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
