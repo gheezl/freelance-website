@@ -13,12 +13,13 @@
 }
 
 .image {
-    box-shadow: 0 0 5px 5px lightblue;
+    box-shadow: 0 0 5px lightblue;
+    transition: 1s;
 }
 
 .image:hover {
-    box-shadow: 0 0 5px 5px white;
-    transition: 1s;
+    box-shadow: 0 0 5px white;
+    
 }
 
 .description {

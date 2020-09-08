@@ -36,3 +36,14 @@
     font-size: 25px;
     cursor: pointer;
 }
+
+.click-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.493);
+}

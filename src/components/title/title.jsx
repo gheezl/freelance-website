@@ -4,9 +4,14 @@ import "./title.css"
 
 
 const Title = ({ history }) => {
+    let [aboutClass, setAboutClass] = useState("border")
+
+
     const onCLickFunction = (props) => {
         history.push(`./${props}`)
     }
+
+    const data = ["about me", "my work", "contact me"]
 
     return (
         <Fragment>
@@ -15,6 +20,13 @@ const Title = ({ history }) => {
                 <span className="developer-designer" >A Web Developer and Designer</span>
             </div>
             <div className="to-information">
+                {/* {
+                    data.map(string => (
+                        <div onClick={() => onCLickFunction("about")} className="border">
+                            <span>{string}</span>
+                        </div>
+                    ))
+                } */}
                 <div onClick={() => onCLickFunction("about")} className="border">
                     <span>About me</span>
                 </div>

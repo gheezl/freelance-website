@@ -5,7 +5,12 @@ import './contact.css';
 const Contact = () => {
     return (
         <Fragment>
-            <span>Contact me</span>
+            <div className="contact-border">
+                <div className="email">
+                    <span className="">Email me:</span>
+                    <a href="">gheezl25@gmail.com</a>
+                </div>
+            </div>
         </Fragment>
     )
 }

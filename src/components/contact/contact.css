@@ -1,0 +1,19 @@
+.contact-border {
+    background-color: rgba(0, 0, 0, 0.493);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.email-me {
+    margin-right: 10px;
+}
