@@ -4,18 +4,18 @@
     font-size: 50px;
     margin-top: 300px;
     margin-bottom: 25px;
-    text-shadow: 0 0 30px white;
+    text-shadow: 0 0 10px white;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 .developer-designer {
     display: flex;
     justify-content: center;
     font-size: 25px;
-    margin-bottom: 250px;
-    text-shadow: 0 0 30px white;
+    margin-bottom:300px;
+    text-shadow: 0 0 10px white;
 }
 
 .to-information {

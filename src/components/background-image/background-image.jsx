@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import './background-image.css';
 
-import Clouds from "../../images/clouds6.jpg"
+import Clouds from "../../images/clouds4.jpg"
 
 
 const BackgroundImage = () => {
