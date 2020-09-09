@@ -19,6 +19,10 @@
     flex-direction: row;
 }
 
+.image {
+    height: 350px;
+}
+
 .description {
     padding: 25px;
     width: 300px;
@@ -41,4 +45,40 @@
 .web-design {
     display: flex;
     justify-content: center;
+}
+
+.custom-projects {
+    display: flex;
+    justify-content: left;
+}
+
+@media only screen and (max-width: 800px) {
+    .description-image {
+        padding: 10px;
+    }
+
+    .image {
+        height: 200px;
+    }
+
+    .description {
+        height: 150px;
+        font-size: 15px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .web-development {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .custom-projects {
+        justify-content: center;
+        margin-top: 20px;
+    }
 }

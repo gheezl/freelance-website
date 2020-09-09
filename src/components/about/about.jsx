@@ -9,8 +9,8 @@ const About = () => {
             <div className="about-border" >
                 <span className="title" >About me</span>
                 <div className="description-image">
-                    <img className="image" src={Me} height="350px" />
-                    <span className="description">Hi! My name is Jacob Rushlow I am a freelance web developer and web designer currently living in northwestern Ohio.</span>
+                    <img className="image" src={Me} />
+                    <span className="description">Hi! My name is Jacob Rushlow</span>
                 </div>
                 <span className="title" >What I do</span>
                 <div className="skills">
@@ -25,5 +25,7 @@ const About = () => {
         </Fragment>
     )
 }
+
+//  I am a freelance web developer and web designer currently living in northwestern Ohio.
 
 export default About;

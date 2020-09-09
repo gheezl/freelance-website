@@ -7,3 +7,9 @@
     z-index: -1;
     width: 100%;
 }
+
+@media only screen and (max-width: 800px) {
+    .background-image {
+        width: auto;
+    }
+}
