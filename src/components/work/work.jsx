@@ -5,7 +5,12 @@ import './work.css';
 const Work = () => {
     return (
         <Fragment>
-            <span>My work</span>
+            <div className="work-border" >
+                <span className="my-work">My work</span>
+                <div>
+
+                </div>
+            </div>
         </Fragment>
     )
 }

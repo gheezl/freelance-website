@@ -6,7 +6,6 @@ import Title from "./components/title/title.jsx"
 import About from "./components/about/about.jsx"
 import Work from "./components/work/work.jsx"
 import Contact from "./components/contact/contact.jsx"
-import Header from "./components/header/header.jsx"
 import Footer from "./components/footer/footer.jsx"
 
 import BackgroundImage from "./components/background-image/background-image.jsx"
