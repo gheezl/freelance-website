@@ -10,7 +10,7 @@ const About = () => {
                 <span className="title" >About me</span>
                 <div className="description-image">
                     <img className="image" src={Me} />
-                    <span className="description">Hi! My name is Jacob Rushlow</span>
+                    <span className="description">Hi! My name is Jacob Rushlow I am a freelance web developer and web designer currently living in northwestern Ohio.</span>
                 </div>
                 <span className="title" >What I do</span>
                 <div className="skills">
@@ -25,7 +25,5 @@ const About = () => {
         </Fragment>
     )
 }
-
-//  I am a freelance web developer and web designer currently living in northwestern Ohio.
 
 export default About;

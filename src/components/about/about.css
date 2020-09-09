@@ -29,6 +29,7 @@
     background-color: white;
     color: black;
     font-size: 17px;
+    overflow: auto;
 }
 
 .skills {
