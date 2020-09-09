@@ -16,7 +16,6 @@ const App = () => {
   return (
     <Fragment>
       <BackgroundImage />
-      {/* <Header /> */}
       <Route path="/" component={Title} />
       <Route exact path="/" component={Work} />
       <Route path="/about" component={About} />

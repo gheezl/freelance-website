@@ -19,20 +19,12 @@
     flex-direction: row;
 }
 
-.image {
-    box-shadow: 0 0 5px lightblue;
-    transition: 1s;
-}
-
-.image:hover {
-    box-shadow: 0 0 5px white;
-    
-}
-
 .description {
     padding: 25px;
-    width: 250px;
-    box-shadow: 1px 1px lightblue;
+    width: 300px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
 }
 
 .skills {
