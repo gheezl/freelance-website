@@ -11,16 +11,20 @@ import Footer from "./components/footer/footer.jsx"
 
 import BackgroundImage from "./components/background-image/background-image.jsx"
 
+import ErrorBoundary from "./components/error-boundary/error-boundary.jsx"
+
 
 const App = () => {
   return (
     <Fragment>
       <BackgroundImage />
-      <Route path="/" component={Title} />
-      <Route exact path="/" component={Work} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Footer />
+      <ErrorBoundary>
+        <Route path="/" component={Title} />
+        <Route exact path="/" component={Work} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Footer />
+      </ErrorBoundary>
     </Fragment>
   )
 }
