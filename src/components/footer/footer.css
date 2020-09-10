@@ -6,3 +6,12 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.github {
+    color: black;
+    transition: 1s;
+}
+
+.github:hover {
+    color: lightblue;
+}
